@@ -1,6 +1,6 @@
 package com.designpatterns.command;
 
-public class SendEmail implements BaseCommand {
+public class GenerateEmail implements BaseCommand {
 
     @Override
     public void execute() {

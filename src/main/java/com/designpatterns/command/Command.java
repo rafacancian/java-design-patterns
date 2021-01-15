@@ -10,7 +10,7 @@ public class Command {
         baseCommand = new GenerateXml();
         baseCommand.execute();
 
-        baseCommand = new SendEmail();
+        baseCommand = new GenerateEmail();
         baseCommand.execute();
     }
 

@@ -26,8 +26,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Command
 > Encapsula uma solicitação como um objeto, permitindo que clientes sejam parametrizados com diferentes solicitações
 > e suportem operações que possam ser desfeitas.
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/command/ant-pattern.jpg)
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/command/command.jpg)
+![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/command/ant-pattern.JPG)
+![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/images/command/command.JPG)
 
 ### Composite 
 > Compõe objetos em estruturas de árvore para representar hierarquias do tipo partetodo. Permite que os clientes 

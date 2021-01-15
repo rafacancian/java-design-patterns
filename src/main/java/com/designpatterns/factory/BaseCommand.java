@@ -1,4 +1,4 @@
-package com.designpatterns.command;
+package com.designpatterns.factory;
 
 // Can be a abstract class or Interface
 public interface BaseCommand {
