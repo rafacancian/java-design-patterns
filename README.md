@@ -75,10 +75,10 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 > Portanto, Singleton é um design pattern de criação cujo objetivo é fazer que a classe tecnicamente ofereça
 > apenas uma instância de objeto, que será controlada por ela mesma. Ao aplicarmos o Singleton nas situações
 > corretas, temos como conseqüência um número menor de objetos de “mortalidade infantil”, pois a classe
-> disponibilizará apenas acesso a um único objeto
-> Herança com Singleton:  Este tipo de implementação Singleton acaba limitando o uso de herança e polimorfismos em 
-> função de trabalharmos com o construtor private. Para obter melhores resultados com objetos Singleton que devem ser
-> criados a partir de uma família de classes, devemos aplicar o design pattern Factory
+> disponibilizará apenas acesso a um único objeto.
+>> Herança com Singleton:  Este tipo de implementação Singleton acaba limitando o uso de herança e polimorfismos em 
+>> função de trabalharmos com o construtor private. Para obter melhores resultados com objetos Singleton que devem ser
+>> criados a partir de uma família de classes, devemos aplicar o design pattern Factory
 ![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/singleton/singleton.png)
 ![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/helper/images/singleton/singleton.png)
 
