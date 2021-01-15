@@ -79,9 +79,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 > Herança com Singleton:  Este tipo de implementação Singleton acaba limitando o uso de herança e polimorfismos em 
 > função de trabalharmos com o construtor private. Para obter melhores resultados com objetos Singleton que devem ser
 > criados a partir de uma família de classes, devemos aplicar o design pattern Factory
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/blob/main/images/singleton/singleton.PNG)
-![](https://github.com/rafacancian/java-design-patterns/main/images/singleton/singleton.PNG)
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/singleton/singleton.PNG)
+![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/singleton/singleton.png)
+![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/helper/images/singleton/singleton.png)
 
 ### State
 > Permite que um objeto altere seu comportamento quando seu estado muda.
