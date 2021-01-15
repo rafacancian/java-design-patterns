@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.singleton.Singleton;
+import com.designpatterns.command.Command;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -9,7 +9,10 @@ public class DesignpatternsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DesignpatternsApplication.class, args);
-        Singleton.execute();
+
+        //Singleton.execute();
+
+        Command.execute();
     }
 
 }
