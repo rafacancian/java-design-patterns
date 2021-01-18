@@ -92,7 +92,15 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 
 ### Template Method
 > Define o esqueleto de um algoritmo em uma operação, postergando a implementação de alguns passos para sub-classes.
-
+>> Template Method é uma técnica de modelagem de classes abstratas e sub-classes, que se baseia na seguinte
+>>  idéia:
+>>  1. Definimos uma classe abstrata com métodos abstratos e métodos concretos
+>>  2. Nos métodos concretos da classe abstrata, definimos a estrutura dos algoritmos, chamando seus
+>>     métodos abstratos, mesmo sem saber qual será a implementação
+>>  3. Definimos sub-classes que implementam os métodos abstratos.
+>>   Dessa forma eliminamos os principais problemas da solução anterior: repetição de códigos e falta de garantia da
+>>   integridade da execução do algoritmo.
+>
 ### Visitor
 > Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. Permite que uma nova operação
 > seja definida sem mudas as classes dos elementos sobre os quais opera.
