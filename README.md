@@ -64,6 +64,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Observer
 > Define uma dependência um-para-muitos entre objetos, de modo que, quando um objeto muda de estado, todos os seus 
 > dependentes são notificados.
+>> Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, 
+>> its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
 
 ### Prototype 
 > Especifica os tipos de objetos a serem criados utilizando uma instância protótipo e criando novos objetos copiando 

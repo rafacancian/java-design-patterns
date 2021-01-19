@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.factory.Factory;
+import com.designpatterns.observer.Observer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,9 +14,11 @@ public class DesignpatternsApplication {
 
         //Command.execute();
 
-        Factory.execute();
+        // Factory.execute();
 
         //Adapter.execute();
+
+        Observer.execute();
     }
 
 }
