@@ -104,3 +104,10 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Visitor
 > Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. Permite que uma nova operação
 > seja definida sem mudas as classes dos elementos sobre os quais opera.
+>> O Visitor é um design pattern muito interessante que permite acrescentarmos operações em um objeto sem a
+>>  necessidade de alterá-lo. Normalmente o Visitor representará uma operação comum que atuará em uma família
+>>  de objetos de um mesmo tipo, podendo esta operação ser específica para sub-tipos daquela família de objetos. O
+>>  Visitor é também uma maneira elegante de você reduzir radicalmente o uso de extensos if(objeto
+>>  instanceof X), else if(objeto instanceof Y), propondo um modelo onde uma classe Visitor poderá
+>>  representar a operação para todos os seus sub-tipos e esta operação poderá ser acionada pelo objeto sem ele
+>>  conhecer sua realização concreta.
