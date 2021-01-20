@@ -55,7 +55,7 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 > Dada uma linguagem, define uma representação para sua gramática juntamente com um interpretador que usa a 
 > representação para interpretar sentenças nesta linguagem.
 
-### Intercepter
+### Intercept
 > The intercepting filter design pattern is used when we want to do some pre-processing / post-processing with request
 > or response of the application. Filters are defined and applied on the request before passing the request to actual target application. 
 > Filters can do the authentication/ authorization/ logging or tracking of request and then pass the requests to corresponding handlers. 
