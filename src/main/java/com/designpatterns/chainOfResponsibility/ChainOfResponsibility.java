@@ -1,6 +1,6 @@
 package com.designpatterns.chainOfResponsibility;
 
-public class ChainOfResponsability {
+public class ChainOfResponsibility {
 
     public static void execute() {
 

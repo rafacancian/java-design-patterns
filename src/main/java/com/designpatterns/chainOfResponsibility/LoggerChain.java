@@ -8,7 +8,6 @@ public class LoggerChain {
         AbstractLogger debuggerLogger = new DebuggerLogger(AbstractLogger.DEBUG);
         AbstractLogger infoLogger = new InfoLogger(AbstractLogger.INFO);
 
-
         errorLogger.setNextLogger(debuggerLogger);
         debuggerLogger.setNextLogger(infoLogger);
 

@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.chainOfResponsibility.ChainOfResponsability;
+import com.designpatterns.strategy.Strategy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -20,7 +20,9 @@ public class DesignpatternsApplication {
 
         // Observer.execute();
 
-        ChainOfResponsability.execute();
+        // ChainOfResponsibility.execute();
+
+        Strategy.execute();
     }
 
 }
