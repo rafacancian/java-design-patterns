@@ -22,6 +22,10 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 > Evita o acoplamento do remetente de uma solicitação ao seu destinatário, permitindo que diversos objetos tenham a 
 > chance de tratar a solicitação. Encadeia os objetos receptores e transmite a solicitação através da cadeia até que
 > um objeto a trate.
+>> As the name suggests, the chain of responsibility pattern creates a chain of receiver objects for a request. 
+>> This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
+>> In this pattern, normally each receiver contains reference to another receiver. 
+>> If one object cannot handle the request then it passes the same to the next receiver and so on.
 
 ### Command
 > Encapsula uma solicitação como um objeto, permitindo que clientes sejam parametrizados com diferentes solicitações
@@ -84,7 +88,6 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> função de trabalharmos com o construtor private. Para obter melhores resultados com objetos Singleton que devem ser
 >> criados a partir de uma família de classes, devemos aplicar o design pattern Factory
 ![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/singleton/singleton.png)
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/helper/images/singleton/singleton.png)
 
 ### State
 > Permite que um objeto altere seu comportamento quando seu estado muda.
@@ -95,13 +98,13 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Template Method
 > Define o esqueleto de um algoritmo em uma operação, postergando a implementação de alguns passos para sub-classes.
 >> Template Method é uma técnica de modelagem de classes abstratas e sub-classes, que se baseia na seguinte
->>  idéia:
->>  1. Definimos uma classe abstrata com métodos abstratos e métodos concretos
->>  2. Nos métodos concretos da classe abstrata, definimos a estrutura dos algoritmos, chamando seus
->>     métodos abstratos, mesmo sem saber qual será a implementação
->>  3. Definimos sub-classes que implementam os métodos abstratos.
->>   Dessa forma eliminamos os principais problemas da solução anterior: repetição de códigos e falta de garantia da
->>   integridade da execução do algoritmo.
+>> idéia:
+>> 1. Definimos uma classe abstrata com métodos abstratos e métodos concretos
+>> 2. Nos métodos concretos da classe abstrata, definimos a estrutura dos algoritmos, chamando seus
+>>    métodos abstratos, mesmo sem saber qual será a implementação
+>> 3. Definimos sub-classes que implementam os métodos abstratos.
+>>  Dessa forma eliminamos os principais problemas da solução anterior: repetição de códigos e falta de garantia da
+>>  integridade da execução do algoritmo.
 >
 ### Visitor
 > Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. Permite que uma nova operação

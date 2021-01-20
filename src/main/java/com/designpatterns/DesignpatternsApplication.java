@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.observer.Observer;
+import com.designpatterns.chainOfResponsibility.ChainOfResponsability;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,15 +10,17 @@ public class DesignpatternsApplication {
     public static void main(String[] args) {
         SpringApplication.run(DesignpatternsApplication.class, args);
 
-        //Singleton.execute();
+        // Singleton.execute();
 
-        //Command.execute();
+        // Command.execute();
 
         // Factory.execute();
 
-        //Adapter.execute();
+        // Adapter.execute();
 
-        Observer.execute();
+        // Observer.execute();
+
+        ChainOfResponsability.execute();
     }
 
 }
