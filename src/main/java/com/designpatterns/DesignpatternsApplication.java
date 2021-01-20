@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.strategy.Strategy;
+import com.designpatterns.intercept.Intercept;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -22,7 +22,9 @@ public class DesignpatternsApplication {
 
         // ChainOfResponsibility.execute();
 
-        Strategy.execute();
+        // Strategy.execute();
+
+        Intercept.execute();
     }
 
 }
