@@ -5,6 +5,8 @@ import com.designpatterns.solid.model.Employee;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class SalaryReadjustment {
 
@@ -14,6 +16,14 @@ public class SalaryReadjustment {
         if (percentagePlus.compareTo(new BigDecimal("0.4")) > 0) {
             throw new ValidateSalaryException("The readjustment can not be great then 40% of the salary");
         }
+
+        final LocalDate lastReadjustingDate = employee.getLastUpdateSalary();
+        final LocalDate today = LocalDate.now();
+        final long monthLastReadjust = ChronoUnit.MONTHS.between(lastReadjustingDate, today);
+        if (monthLastReadjust > 6) {
+            throw new ValidateSalaryException("It is not possible to give readjusting in a interval less than 6 month");
+        }
+
         final BigDecimal newSalary = currentSalary.add(plusSalary);
         employee.updateSalary(newSalary);
     }
