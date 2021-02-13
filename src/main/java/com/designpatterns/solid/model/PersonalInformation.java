@@ -40,4 +40,13 @@ public class PersonalInformation {
         return salary;
     }
 
+    @Override
+    public String toString() {
+        return "PersonalInformation{" +
+                "name='" + name + '\'' +
+                ", cpf='" + cpf + '\'' +
+                ", position=" + position +
+                ", salary=" + salary +
+                '}';
+    }
 }

@@ -1,4 +1,4 @@
-package com.designpatterns.solid.service;
+package com.designpatterns.solid.validation;
 
 import com.designpatterns.solid.exception.ValidateSalaryException;
 import com.designpatterns.solid.model.Employee;

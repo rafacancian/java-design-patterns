@@ -8,6 +8,7 @@ public class Employee {
     private PersonalInformation personalInformation;
     private LocalDate lastUpdateSalary;
 
+
     public Employee(PersonalInformation personalInformation, LocalDate lastUpdateSalary) {
         this.personalInformation = personalInformation;
         this.lastUpdateSalary = lastUpdateSalary;
@@ -34,8 +35,12 @@ public class Employee {
         return personalInformation;
     }
 
-    public void setPersonalInformation(PersonalInformation personalInformation) {
-        this.personalInformation = personalInformation;
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "personalInformation=" + personalInformation +
+                ", lastUpdateSalary=" + lastUpdateSalary +
+                '}';
     }
 }
 

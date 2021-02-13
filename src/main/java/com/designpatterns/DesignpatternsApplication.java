@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.intercept.Intercept;
+import com.designpatterns.solid.SolidExecute;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -24,7 +24,9 @@ public class DesignpatternsApplication {
 
         // Strategy.execute();
 
-        Intercept.execute();
+        // Intercept.execute();
+
+        SolidExecute.execute();
     }
 
 }

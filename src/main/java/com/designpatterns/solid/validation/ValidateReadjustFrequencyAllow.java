@@ -1,4 +1,4 @@
-package com.designpatterns.solid.service;
+package com.designpatterns.solid.validation;
 
 import com.designpatterns.solid.exception.ValidateSalaryException;
 import com.designpatterns.solid.model.Employee;
@@ -14,7 +14,7 @@ public class ValidateReadjustFrequencyAllow implements ValidateReadjust {
         final LocalDate lastReadjustingDate = employee.getLastUpdateSalary();
         final LocalDate today = LocalDate.now();
         final long monthLastReadjust = ChronoUnit.MONTHS.between(lastReadjustingDate, today);
-        if (monthLastReadjust > 6) {
+        if (monthLastReadjust < 6) {
             throw new ValidateSalaryException("It is not possible to give readjusting in a interval less than 6 month");
         }
     }
