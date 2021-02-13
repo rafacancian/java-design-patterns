@@ -5,57 +5,21 @@ import java.time.LocalDate;
 
 public class Employee {
 
-    private String name;
-    private String cpf;
-    private Position position;
-    private BigDecimal salary;
+    private PersonalInformation personalInformation;
     private LocalDate lastUpdateSalary;
 
-    public Employee(String name, String cpf, Position position, BigDecimal salary) {
-        this.name = name;
-        this.cpf = cpf;
-        this.position = position;
-        this.salary = salary;
-        this.lastUpdateSalary = LocalDate.now();
+    public Employee(PersonalInformation personalInformation, LocalDate lastUpdateSalary) {
+        this.personalInformation = personalInformation;
+        this.lastUpdateSalary = lastUpdateSalary;
     }
-
 
     public void updateSalary(BigDecimal newSalary) {
-        this.salary = newSalary;
+        personalInformation.updateSalary(newSalary);
         this.lastUpdateSalary = LocalDate.now();
     }
 
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCpf() {
-        return cpf;
-    }
-
-    public void setCpf(String cpf) {
-        this.cpf = cpf;
-    }
-
-    public Position getPosition() {
-        return position;
-    }
-
-    public void setPosition(Position position) {
-        this.position = position;
-    }
-
-    public BigDecimal getSalary() {
-        return salary;
-    }
-
-    public void setSalary(BigDecimal salary) {
-        this.salary = salary;
+    public void promote(Position newPosition) {
+        personalInformation.promote(newPosition);
     }
 
     public LocalDate getLastUpdateSalary() {
@@ -66,8 +30,12 @@ public class Employee {
         this.lastUpdateSalary = lastUpdateSalary;
     }
 
-    public void Promote(Position newPosition) {
-        this.position = newPosition;
+    public PersonalInformation getPersonalInformation() {
+        return personalInformation;
+    }
+
+    public void setPersonalInformation(PersonalInformation personalInformation) {
+        this.personalInformation = personalInformation;
     }
 }
 

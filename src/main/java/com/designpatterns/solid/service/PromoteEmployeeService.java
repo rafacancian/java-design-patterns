@@ -7,7 +7,7 @@ import com.designpatterns.solid.model.Position;
 public class PromoteEmployeeService {
 
     public void execute(Employee employee, boolean deservePromotion) {
-        Position actualPosition = employee.getPosition();
+        Position actualPosition = employee.getPersonalInformation().getPosition();
 
         if (Position.MANAGER == actualPosition) {
             throw new ValidatePromotionException("Manager can not be promoted");
@@ -15,7 +15,7 @@ public class PromoteEmployeeService {
 
         if (deservePromotion) {
             Position nextPosition = actualPosition.nextPosition();
-            employee.Promote(nextPosition);
+            employee.promote(nextPosition);
         }
 
     }

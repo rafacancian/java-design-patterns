@@ -17,7 +17,7 @@ public class SalaryReadjustmentService {
 
         validations.forEach(v -> v.validate(employee, plusSalary));
 
-        final BigDecimal newSalary = employee.getSalary().add(plusSalary);
+        final BigDecimal newSalary = employee.getPersonalInformation().getSalary().add(plusSalary);
         employee.updateSalary(newSalary);
     }
 
