@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.solid.SolidExecute;
+import com.designpatterns.strategy.Strategy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -22,11 +22,11 @@ public class DesignpatternsApplication {
 
         // ChainOfResponsibility.execute();
 
-        // Strategy.execute();
+        Strategy.execute();
 
         // Intercept.execute();
 
-        SolidExecute.execute();
+        //SolidExecute.execute();
     }
 
 }

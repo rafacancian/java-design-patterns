@@ -110,7 +110,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> In Strategy pattern, we create objects which represent various strategies and a context object whose behavior varies
 >> as per its strategy object. 
 >> The strategy object changes the executing algorithm of the context object.
-
+>
+> Ref: https://refactoring.guru/design-patterns/strategy
 ### Template Method
 > Define o esqueleto de um algoritmo em uma operação, postergando a implementação de alguns passos para sub-classes.
 >> Template Method é uma técnica de modelagem de classes abstratas e sub-classes, que se baseia na seguinte
