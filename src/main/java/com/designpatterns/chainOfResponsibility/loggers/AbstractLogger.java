@@ -1,4 +1,4 @@
-package com.designpatterns.chainOfResponsibility;
+package com.designpatterns.chainOfResponsibility.loggers;
 
 import org.springframework.util.ObjectUtils;
 

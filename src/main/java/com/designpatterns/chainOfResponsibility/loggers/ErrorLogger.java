@@ -1,4 +1,4 @@
-package com.designpatterns.chainOfResponsibility;
+package com.designpatterns.chainOfResponsibility.loggers;
 
 public class ErrorLogger extends AbstractLogger {
 

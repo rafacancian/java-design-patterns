@@ -26,6 +26,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> This pattern decouples sender and receiver of a request based on type of request. This pattern comes under behavioral patterns.
 >> In this pattern, normally each receiver contains reference to another receiver. 
 >> If one object cannot handle the request then it passes the same to the next receiver and so on.
+>
+> Ref: https://refactoring.guru/design-patterns/chain-of-responsibility
 
 ### Command
 > Encapsula uma solicitação como um objeto, permitindo que clientes sejam parametrizados com diferentes solicitações
@@ -123,6 +125,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >>  Dessa forma eliminamos os principais problemas da solução anterior: repetição de códigos e falta de garantia da
 >>  integridade da execução do algoritmo.
 >
+>Ref: https://refactoring.guru/design-patterns/template-method
+
 ### Visitor
 > Representa uma operação a ser executada sobre os elementos da estrutura de um objeto. Permite que uma nova operação
 > seja definida sem mudas as classes dos elementos sobre os quais opera.

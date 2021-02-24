@@ -1,6 +1,6 @@
-package com.designpatterns.chainOfResponsibility;
+package com.designpatterns.chainOfResponsibility.loggers;
 
-public class ChainOfResponsibility {
+public class ChainOfResponsibilityLogger {
 
     public static void execute() {
 
