@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.chainOfResponsibility.discount.v2.withtemplatemethod.ChainOfResponsibilityDiscountV2;
+import com.designpatterns.state.ExecuteState;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -21,14 +21,16 @@ public class DesignpatternsApplication {
         // Observer.execute();
 
         // ChainOfResponsibilityLogger.execute();
-        //ChainOfResponsibilityDiscount.execute();
-        ChainOfResponsibilityDiscountV2.execute();
+        // ChainOfResponsibilityDiscount.execute();
+        // ChainOfResponsibilityDiscountV2.execute();
 
-        //Strategy.execute();
+        // Strategy.execute();
 
         // Intercept.execute();
 
-        //SolidExecute.execute();
+        // SolidExecute.execute();
+
+        ExecuteState.execute();
     }
 
 }
