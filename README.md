@@ -42,6 +42,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Decorator 
 > Atribui responsabilidades adicionais a um objeto dinamicamente. Fornecem uma alternativa flexível a sub-classes
 > para extensão de funcionalidade.
+>
+>Ref: https://refactoring.guru/design-patterns/decorator
 
 ### Façade 
 > Fornece uma interface mais simples para um conjunto de interfaces de um subsistema.
@@ -118,6 +120,7 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> The strategy object changes the executing algorithm of the context object.
 >
 > Ref: https://refactoring.guru/design-patterns/strategy
+>
 ### Template Method
 > Define o esqueleto de um algoritmo em uma operação, postergando a implementação de alguns passos para sub-classes.
 >> Template Method é uma técnica de modelagem de classes abstratas e sub-classes, que se baseia na seguinte
