@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.state.ExecuteState;
+import com.designpatterns.observer.ex2.ExecuteOrderObserver;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -19,6 +19,7 @@ public class DesignpatternsApplication {
         // Adapter.execute();
 
         // Observer.execute();
+        ExecuteOrderObserver.execute();
 
         // ChainOfResponsibilityLogger.execute();
         // ChainOfResponsibilityDiscount.execute();
@@ -30,7 +31,7 @@ public class DesignpatternsApplication {
 
         // SolidExecute.execute();
 
-        ExecuteState.execute();
+        // ExecuteState.execute();
     }
 
 }

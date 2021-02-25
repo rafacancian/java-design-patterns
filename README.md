@@ -84,6 +84,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> Observer pattern is used when there is one-to-many relationship between objects such as if one object is modified, 
 >> its depenedent objects are to be notified automatically. Observer pattern falls under behavioral pattern category.
 
+> Ref: https://refactoring.guru/design-patterns/observer
+
 ### Prototype 
 > Especifica os tipos de objetos a serem criados utilizando uma instância protótipo e criando novos objetos copiando 
 > este protótipo.

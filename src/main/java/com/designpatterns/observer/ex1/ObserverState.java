@@ -1,4 +1,4 @@
-package com.designpatterns.observer;
+package com.designpatterns.observer.ex1;
 
 public abstract class ObserverState {
 
