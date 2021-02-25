@@ -32,8 +32,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Command
 > Encapsula uma solicitação como um objeto, permitindo que clientes sejam parametrizados com diferentes solicitações
 > e suportem operações que possam ser desfeitas.
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/command/ant-pattern.JPG)
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/images/command/command.JPG)
+>
+> Ref: https://refactoring.guru/design-patterns/command
 
 ### Composite 
 > Compõe objetos em estruturas de árvore para representar hierarquias do tipo partetodo. Permite que os clientes 
@@ -104,6 +104,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 
 ### State
 > Permite que um objeto altere seu comportamento quando seu estado muda.
+>
+> Ref: https://refactoring.guru/design-patterns/state
 
 ### Strategy
 > Define uma familia de algoritmos e os encapsula tornando-os intercambiáveis.
