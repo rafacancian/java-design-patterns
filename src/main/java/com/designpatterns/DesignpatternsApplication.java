@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.decorator.ExecuteDecorator;
+import com.designpatterns.composite.ExecuteComposite;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -33,7 +33,9 @@ public class DesignpatternsApplication {
 
         // ExecuteState.execute();
 
-        ExecuteDecorator.execute();
+        // ExecuteDecorator.execute();
+
+        ExecuteComposite.execute();
     }
 
 }

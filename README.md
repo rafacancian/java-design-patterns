@@ -38,6 +38,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 ### Composite 
 > Compõe objetos em estruturas de árvore para representar hierarquias do tipo partetodo. Permite que os clientes 
 > tratem objetos individuais e composições de maneira uniforme.
+>
+> Ref: https://refactoring.guru/design-patterns/composite
 
 ### Decorator 
 > Atribui responsabilidades adicionais a um objeto dinamicamente. Fornecem uma alternativa flexível a sub-classes
@@ -104,7 +106,6 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 >> Herança com Singleton:  Este tipo de implementação Singleton acaba limitando o uso de herança e polimorfismos em 
 >> função de trabalharmos com o construtor private. Para obter melhores resultados com objetos Singleton que devem ser
 >> criados a partir de uma família de classes, devemos aplicar o design pattern Factory
-![](https://raw.githubusercontent.com/rafacancian/java-design-patterns/main/images/singleton/singleton.png)
 
 ### State
 > Permite que um objeto altere seu comportamento quando seu estado muda.
