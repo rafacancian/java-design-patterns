@@ -49,6 +49,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 
 ### Façade 
 > Fornece uma interface mais simples para um conjunto de interfaces de um subsistema.
+>
+> Ref: https://refactoring.guru/design-patterns/facade
 
 ### Factory Method 
 > Define uma interface para criação de um objeto, mas deixa as sub-classes decidirem qual a classe a ser instanciada. 
