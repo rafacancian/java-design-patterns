@@ -4,7 +4,7 @@ Os 23 design patterns GoF representam um conjunto de técnicas de modelagem orie
 A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF.
 
 ### Abstract Factory
-![](https://raw.githubusercontent.com/rafacancian/java-design-patters/imagens/animations/creational/abstract-factory.png)
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creational/abstract-factory.png)
 > Fornece uma interface para a criação de uma família de objetos relacionados ou dependentes sem fornecer os detalhes
 > de implementação das classes concretas.
 
