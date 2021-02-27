@@ -23,7 +23,7 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 > representações diferentes.
 
 ### Chain of Responsibility
-![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/behavioral/chain-of-responsability.png)
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/behavioral/chain-of-responsibility.png)
 > Evita o acoplamento do remetente de uma solicitação ao seu destinatário, permitindo que diversos objetos tenham a 
 > chance de tratar a solicitação. Encadeia os objetos receptores e transmite a solicitação através da cadeia até que
 > um objeto a trate.
