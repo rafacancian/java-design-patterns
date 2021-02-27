@@ -1,6 +1,6 @@
 package com.designpatterns.singleton;
 
-public class Singleton {
+public class ExampleSingleton {
 
     public static void execute() {
         System.out.println("Design Pattern - Singleton");

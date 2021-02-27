@@ -4,7 +4,7 @@ import com.designpatterns.chainOfResponsibility.discount.invoiceItems;
 
 import java.math.BigDecimal;
 
-public class ChainOfResponsibilityDiscount {
+public class ExampleChainOfResponsibilityDiscount {
 
     public static void execute() {
 

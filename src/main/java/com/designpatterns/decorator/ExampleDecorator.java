@@ -2,7 +2,7 @@ package com.designpatterns.decorator;
 
 import java.math.BigDecimal;
 
-public class ExecuteDecorator {
+public class ExampleDecorator {
 
     public static void execute() {
 

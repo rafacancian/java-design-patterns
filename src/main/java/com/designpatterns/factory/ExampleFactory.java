@@ -1,6 +1,6 @@
 package com.designpatterns.factory;
 
-public class Factory {
+public class ExampleFactory {
 
 
     public static void execute() {

@@ -1,6 +1,6 @@
 package com.designpatterns.state;
 
-public class ExecuteState {
+public class ExampleState {
 
     public static void execute() {
 

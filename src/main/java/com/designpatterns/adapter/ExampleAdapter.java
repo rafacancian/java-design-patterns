@@ -1,6 +1,6 @@
 package com.designpatterns.adapter;
 
-public class Adapter {
+public class ExampleAdapter {
 
     public static void execute() {
         ManagerClient managerClient = new ManagerClient();

@@ -2,7 +2,7 @@ package com.designpatterns.facade;
 
 import java.math.BigDecimal;
 
-public class ExecuteFacade {
+public class ExampleFacade {
 
     public static void execute() {
         BankAccount origin = new BankAccount("Rafael Cancian");

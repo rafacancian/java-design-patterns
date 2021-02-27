@@ -1,6 +1,6 @@
 package com.designpatterns.observer.ex1;
 
-public class Observer {
+public class ExampleObserverNumberConverter {
 
     public static void execute() {
         Subject subject = new Subject();

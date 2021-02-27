@@ -1,6 +1,5 @@
 package com.designpatterns;
 
-import com.designpatterns.proxy.ExecuteProxy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -10,36 +9,35 @@ public class DesignpatternsApplication {
     public static void main(String[] args) {
         SpringApplication.run(DesignpatternsApplication.class, args);
 
-        // Singleton.execute();
+        // ExampleSingleton.execute();
 
-        // Command.execute();
+        // ExampleCommand.execute();
 
-        // Factory.execute();
+        // ExampleFactory.execute();
 
-        // Adapter.execute();
+        // ExampleAdapter.execute();
 
-        // Observer.execute();
-        //ExecuteOrderObserver.execute();
+        // ExampleObserverNumberConverter.execute();
+        // ExampleObserverOrderActions.execute();
 
-        // ChainOfResponsibilityLogger.execute();
-        // ChainOfResponsibilityDiscount.execute();
-        // ChainOfResponsibilityDiscountV2.execute();
+        // ExampleChainOfResponsibilityDiscount.execute();
+        // ExampleChainOfResponsibilityDiscountV2.execute();
 
-        // Strategy.execute();
+        // ExampleStrategy.execute();
 
-        // Intercept.execute();
+        // ExampleIntercept.execute();
 
-        // SolidExecute.execute();
+        // ExampleSolid.execute();
 
-        // ExecuteState.execute();
+        // ExampleState.execute();
 
-        // ExecuteDecorator.execute();
+        // ExampleDecorator.execute();
 
-        // ExecuteComposite.execute();
+        // ExampleComposite.execute();
 
-        // ExecuteFacade.execute();
+        // ExampleFacade.execute();
 
-        ExecuteProxy.execute();
+        // ExampleProxy.execute();
     }
 
 }

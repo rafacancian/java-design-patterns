@@ -3,7 +3,7 @@ package com.designpatterns.observer.ex2;
 import java.math.BigDecimal;
 import java.util.Set;
 
-public class ExecuteOrderObserver {
+public class ExampleObserverOrderActions {
 
     public static void execute() {
 

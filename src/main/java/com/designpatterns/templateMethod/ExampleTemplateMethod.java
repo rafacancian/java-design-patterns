@@ -1,6 +1,6 @@
 package com.designpatterns.templateMethod;
 
-public class TemplateMethod {
+public class ExampleTemplateMethod {
 
     Report report = new Report() {
 

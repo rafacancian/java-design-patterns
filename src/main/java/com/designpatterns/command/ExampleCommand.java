@@ -1,6 +1,6 @@
 package com.designpatterns.command;
 
-public class Command {
+public class ExampleCommand {
 
     public static void execute() {
 

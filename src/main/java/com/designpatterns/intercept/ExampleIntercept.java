@@ -1,6 +1,6 @@
 package com.designpatterns.intercept;
 
-public class Intercept {
+public class ExampleIntercept {
 
     public static void execute() {
 

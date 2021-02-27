@@ -2,7 +2,7 @@ package com.designpatterns.composite;
 
 import java.math.BigDecimal;
 
-public class ExecuteComposite {
+public class ExampleComposite {
 
     public static void execute() {
 

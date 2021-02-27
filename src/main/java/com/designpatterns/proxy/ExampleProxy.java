@@ -2,7 +2,7 @@ package com.designpatterns.proxy;
 
 import java.math.BigDecimal;
 
-public class ExecuteProxy {
+public class ExampleProxy {
 
     public static void execute() {
 

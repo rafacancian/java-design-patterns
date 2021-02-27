@@ -1,6 +1,6 @@
 package com.designpatterns.strategy;
 
-public class Strategy {
+public class ExampleStrategy {
 
     public static void execute() {
 
