@@ -98,6 +98,8 @@ A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF
 
 ### Proxy
 > Fornece um objeto representante de outro objeto, de forma a controlar o acesso ao mesmo.
+>
+> Ref: https://refactoring.guru/design-patterns/proxy
 
 ### Singleton
 > Garante que uma classe tenha somente uma instância e fornece um ponto de acesso global a ela.

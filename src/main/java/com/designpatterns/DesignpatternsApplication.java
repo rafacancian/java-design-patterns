@@ -1,6 +1,6 @@
 package com.designpatterns;
 
-import com.designpatterns.facade.ExecuteFacade;
+import com.designpatterns.proxy.ExecuteProxy;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -37,7 +37,9 @@ public class DesignpatternsApplication {
 
         // ExecuteComposite.execute();
 
-        ExecuteFacade.execute();
+        // ExecuteFacade.execute();
+
+        ExecuteProxy.execute();
     }
 
 }
