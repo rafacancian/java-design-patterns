@@ -3,6 +3,35 @@ Project create to implements the design patterns of Java.
 Os 23 design patterns GoF representam um conjunto de técnicas de modelagem orientada a objetos.
 A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF.
 
+## Classification of patterns
+Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. 
+I like the analogy to road construction: you can make an intersection safer by either installing some traffic lights or 
+building an entire multi-level interchange with underground passages for pedestrians.
+
+The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
+
+The most universal and high-level patterns are architectural patterns. 
+Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
+
+In addition, all patterns can be categorized by their intent, or purpose. 
+This book covers three main groups of patterns:
+
+**Creational:** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
+
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creationals.png)
+
+**Structural:** patterns explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
+
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/structurals.png)
+
+**Behavioral:** patterns take care of effective communication and the assignment of responsibilities between objects.
+
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/behaviorals.png)
+
+---
+
+## Patterns
+
 ### Abstract Factory
 ![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creational/abstract-factory.png)
 
