@@ -18,15 +18,15 @@ This book covers three main groups of patterns:
 
 **Creational:** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
 
-![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creationals.png)
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creationals.JPG)
 
 **Structural:** patterns explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
 
-![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/structurals.png)
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/structurals.JPG)
 
 **Behavioral:** patterns take care of effective communication and the assignment of responsibilities between objects.
 
-![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/behaviorals.png)
+![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/behaviorals.JPG)
 
 ---
 
