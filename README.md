@@ -1,7 +1,5 @@
 # JAVA - Design Patterns
-Project create to implements the design patterns of Java.
-Os 23 design patterns GoF representam um conjunto de técnicas de modelagem orientada a objetos.
-A seguir seguem as descrições dos patterns extraídas do próprio livro do GoF.
+Project create to implements the design patterns using java.
 
 ## Classification of patterns
 Design patterns differ by their complexity, level of detail and scale of applicability to the entire system being designed. 
