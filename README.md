@@ -6,13 +6,7 @@ Design patterns differ by their complexity, level of detail and scale of applica
 I like the analogy to road construction: you can make an intersection safer by either installing some traffic lights or 
 building an entire multi-level interchange with underground passages for pedestrians.
 
-The most basic and low-level patterns are often called idioms. They usually apply only to a single programming language.
-
-The most universal and high-level patterns are architectural patterns. 
-Developers can implement these patterns in virtually any language. Unlike other patterns, they can be used to design the architecture of an entire application.
-
-In addition, all patterns can be categorized by their intent, or purpose. 
-This book covers three main groups of patterns:
+In addition, all patterns can be categorized by their intent, or purpose. This book covers three main groups of patterns:
 
 **Creational:** patterns provide object creation mechanisms that increase flexibility and reuse of existing code.
 
@@ -33,9 +27,9 @@ This book covers three main groups of patterns:
 ### Abstract Factory
 ![](https://github.com/rafacancian/java-design-patterns/blob/main/images/animations/creational/abstract-factory.png)
 
-Fornece uma interface para a criação de uma família de objetos relacionados ou dependentes sem fornecer os detalhes
-de implementação das classes concretas.
-
+Is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on 
+the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
 Ref: https://refactoring.guru/design-patterns/abstract-factory
 
 ---
